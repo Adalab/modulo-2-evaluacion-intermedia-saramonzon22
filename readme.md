@@ -4,8 +4,7 @@
 
 #### Description :page_facing_up:
 
-In this excersice we have to made web page,  
-rather, a _game_ web page using the concepts we learned in module 2. The tools we can use are the maquetations tools we learned en module 1 and some new knowledge about JavaScript!
+In this excersice we have to made web page, rather, a _game_ web page using the concepts we learned in module 2. The tools we can use are the maquetations tools we learned en module 1 and some new knowledge about JavaScript!
 
 #### Programs :books:
 
