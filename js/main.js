@@ -32,6 +32,11 @@ function guess (event){
 
 };
 
+var contar = 0;
+btn.onclick = function(){
+    contar++;
+    numberTry.innerHTML = contar;
+}
 
 
 btn.addEventListener('click', guess);
