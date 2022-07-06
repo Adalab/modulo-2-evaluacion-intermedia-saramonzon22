@@ -15,12 +15,15 @@ function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
 }
 
+let randomNumber = getRandomNumber(100);
+    console.log(randomNumber);
+
 
 function guess (event){
     event.preventDefault();
     const whatNumber = inputNumber.value;
-    const randomNumber = getRandomNumber(100);
-    if (whatNumber === randomNumber ){
+    
+    if (whatNumber == randomNumber ){
         clue.innerHTML = '¡¡¡Has ganado campeona!!!'
     }
     else if (whatNumber < randomNumber){
@@ -29,10 +32,16 @@ function guess (event){
     else if (whatNumber > randomNumber){
         clue.innerHTML = 'Pista: Demasiado alto.'
     }
+    if (whatNumber > 100){
+        clue.innerHTML = 'El número debe estar entre 1 y 100.'
+    }
+    if (whatNumber < 0){
+        clue.innerHTML = 'El número debe estar entre 1 y 100.'
+    }
 
 };
 
-var contar = 0;
+let contar = 0;
 btn.onclick = function(){
     contar++;
     numberTry.innerHTML = contar;
@@ -40,4 +49,3 @@ btn.onclick = function(){
 
 
 btn.addEventListener('click', guess);
-console.log(getRandomNumber(100));
