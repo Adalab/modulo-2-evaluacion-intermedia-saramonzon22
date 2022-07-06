@@ -4,21 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9e21a44317.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
   </head>
   <body>
     <main class="main">
-      <h1>adivina el número</h1>
+      <h1 class="title" title="Adivina el número">
+        adivina el número <i class="fa-solid fa-moon"></i></i>
+      </h1>
 
       <form action="" method="" class="form">
         <label class="label">introduce aquí tu número:</label>
         <input type="number" name="number" id="number" class="input-number" />
         <button class="try btn-click">prueba</button>
       </form>
-      <div>
-        <p class="clue-js">Pista: escribe el número y dale a Prueba</p>
-        <p>número de intentos: <span class="try-number">0</span></p>
+      <div class="info">
+        <p class="clue-js p1">Pista: escribe el número y dale a Prueba</p>
+        <p class="p2">número de intentos: <span class="try-number">0</span></p>
       </div>
     </main>
     <script src="./js/main.js"></script>

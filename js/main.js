@@ -38,7 +38,7 @@ function guess (event){
     if (whatNumber < 0){
         clue.innerHTML = 'El número debe estar entre 1 y 100.'
     }
-
+    
 };
 
 let contar = 0;
