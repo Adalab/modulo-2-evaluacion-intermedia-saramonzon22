@@ -71,4 +71,16 @@
     border-radius: 5px;
     text-align: center;
 }
-
+.reset {
+    text-transform: uppercase;
+    width: 100px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.reset:hover {
+    background-color: #C6ECAE;
+    transition: 200ms;
+}
