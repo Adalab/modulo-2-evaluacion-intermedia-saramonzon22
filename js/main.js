@@ -54,12 +54,12 @@ function guess (){
     };
 
   
+
 function count(){
-        btn.onclick = function(){
-        contar++;
-        numberTry.innerHTML = contar;
-    }    
-}
+    contar++;
+    numberTry.innerHTML = contar;
+}    
+
 
 function handleClick(event){
     event.preventDefault();
@@ -76,4 +76,4 @@ function resetClick(){
 reset.addEventListener('click', resetClick);
 btn.addEventListener('click', handleClick);
 btn.addEventListener('keypress', handleClick);
-/* btn.addEventListener('click', guess); */
+
